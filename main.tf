@@ -9,3 +9,5 @@ resource "aws_instance" "ec2vm09" {
   instance_type = t2.micro
 tags = {
     Name = "user09"
+}
+}
