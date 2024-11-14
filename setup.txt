@@ -1,9 +1,9 @@
 echo "# tfdemo" >> README.md
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git config --global user.email "jishnu@gmail.com"
 git config --global user.name "jishnu"
 git branch -M main
 git remote add origin https://github.com/jishnuvenu123/tfdemo.git
-git push -u origin main
+git push -u origin master
